@@ -1,0 +1,151 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* font-family: 'Courgette', cursive; */
+
+/* subheader */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+
+/* body copy */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: lightpink;
+    font-size: 40pt;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    color: lightpink;
+    
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8pt;
+    color: #707070;
+    text-align: center;
+}
+    
+/* nav bar */
+
+    nav {
+        background-color: lightpink;
+        padding: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline;
+      }
+      
+    nav li a {
+        color: white;
+        padding: 50px;
+        text-decoration: none;
+      }
+    
+      nav li a:hover {
+        color: #707070;
+      }
+    
+    nav a {
+        text-align: center;
+        margin: auto;
+        font-family: 'Rubik', sans-serif;
+    }
+
+/* main */
+
+main {
+    text-align: center;
+}
+
+main img {
+    width: 500px;
+    height: 500px;
+}
+
+/* hero - about me */
+
+.hero {
+    text-align: center;
+}
+
+.hero p {
+    font-size: 7pt;
+}
+
+.hero-secondary {
+    text-align: center;
+    padding: 5px;
+}
+
+.hero img {
+    border: solid lightpink;
+    border-width: 0px 15px;
+}
+
+/* main - about me */
+
+.about-me p {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.about-me-list {
+    text-align: center;
+}
+
+.about-me-list ul li {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me-list ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.about-me-list h2 {
+    position: relative;
+    left: 20px;
+    font-size: 20pt;
+}
+
+/* contact */
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .column img {
+  max-width: 100%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
